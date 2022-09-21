@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(237, 236, 241);
+}
+
+.form__heading {
+  color: rgb(78, 99, 118);
+  font-weight: 500;
+  text-align: center;
+  width: 500px;
+  text-transform: uppercase;
+}
+
+.formbox {
+  margin: 80px auto;
+  padding: 200px 60px 30px 60px;
+  border-radius: 30px;
+  background-color: white;
+  border-radius: 15px;
+  width: 500px;
+  height: 660px;
+  box-shadow: grey -10px 10px 20px;
+  position: relative;
+}
+
+.cirle--outer {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -50px;
+  left: 150px;
+  border-radius: 50%;
+  background: linear-gradient(to left top, #cecdd3, #f9f9f9);
+  box-shadow: grey -10px 10px 20px;
+}
+
+.cirle--inner {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: -30px;
+  left: 170px;
+  border-radius: 50%;
+  background: linear-gradient(to right top, rgb(165, 166, 171), #f9f9fb);
+  box-shadow: grey -5px 5px 10px;
+}
+
+.circle--icon {
+  width: 50px;
+  height: 50px;
+  color: rgb(78, 99, 118);
+  position: absolute;
+  top: 10px;
+  left: 215px;
+}
+
+.form__input {
+  background-color: rgb(78, 99, 118);
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.form__button {
+  background-color: rgb(78, 99, 118);
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: none;
+  margin-top: 20px;
+}
+
+.form__button:hover {
+  cursor: pointer;
+}
+
+.form__buttondiv {
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+}
